@@ -107,7 +107,7 @@ uzbek-translation/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/uzbek-translation.git
+git clone https://github.com/asliddinsss/uzbek-translation.git
 cd uzbek-translation
 ```
 
