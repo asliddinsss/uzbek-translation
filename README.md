@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Google Translate added Uzbek support, but quality remains poor — especially for complex sentences, domain-specific vocabulary, and Uzbek-Russian translation (the most practically important pair in Central Asia). This project asks: how far can open-source fine-tuning close that gap?
 
@@ -25,7 +25,7 @@ Google Translate added Uzbek support, but quality remains poor — especially fo
 
 ---
 
-## 📊 Results
+## Results
 
 ### BLEU Scores (higher is better)
 
@@ -91,7 +91,7 @@ uzbek-translation/
 
 ---
 
-## 📦 Datasets
+## Datasets
 
 | Dataset | Pairs (UZ-EN) | Pairs (UZ-RU bridge) | Source |
 |---|---|---|---|
@@ -103,7 +103,7 @@ uzbek-translation/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo
 ```bash
@@ -147,7 +147,7 @@ python src/evaluate.py --benchmark --model mbart --test_file data/processed/test
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
 **MarianMT** — lightweight encoder-decoder transformer for translation:
 ```
@@ -184,7 +184,7 @@ Beam search (num_beams=5) → translated text
 
 ---
 
-## 🔬 Benchmark Methodology
+## Benchmark Methodology
 
 The comparison against Google Translate and DeepL follows this protocol:
 
@@ -200,7 +200,7 @@ The comparison against Google Translate and DeepL follows this protocol:
 
 ---
 
-## 🌍 Real-World Applications
+## Real-World Applications
 
 - **Media localization**: translate Uzbek news to English/Russian for international distribution
 - **Government communication**: translate policy documents between Uzbek and Russian
@@ -220,7 +220,7 @@ This is **Asliddin Builds #05** — an ongoing series of ML projects applied to 
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Deploy as a web app / Telegram bot for real-time translation
 - [ ] Add Uzbek ↔ Kazakh (neighbouring Turkic language — transfer learning opportunity)
@@ -229,7 +229,7 @@ This is **Asliddin Builds #05** — an ongoing series of ML projects applied to 
 
 ---
 
-## 👤 Author
+## Author
 
 **Asliddin** — Grade 9, Presidential School, Namangan, Uzbekistan
 AI/ML Researcher | APIO Finalist 2025 | TEDx Speaker
